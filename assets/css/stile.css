@@ -1,0 +1,139 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+/* HEADER */
+header{
+    text-align: center;
+    background-color: #00a0c6 ;
+    text-transform: uppercase;
+    border-bottom:4px solid #042b2b ;
+    color: #fff;
+    line-height: 2em;
+    
+}
+
+header span {
+    background-color: #fff;
+    color:#00a0c6;
+}
+
+header h2 {
+    color: black;
+    font-weight: lighter;
+}
+
+header h2::first-letter{
+    font-size: x-large;
+}
+
+/* MAIN */
+
+main{
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.5em ;
+}
+
+
+/* ELEMENTI NEL MAIN */
+
+section h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #042b2b ;
+    line-height: 2em;
+    font-size: larger;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    line-height: 2em;
+    font-size: 1em;
+}
+
+b {
+    font-weight: bold;
+}
+
+address{
+    margin-bottom: 2em;
+}
+
+a:link, a:visited {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+#citation {
+
+    font-style: italic;
+    background-color: lightgray;
+    text-align: center;
+    padding: 1.0em;
+    border-radius: 10%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+strong{
+    color: #027794;
+}
+
+
+hr {
+    border: 1px dashed lightgrey;
+}
+
+section h3{
+    font-weight: bold;
+}
+
+mark{
+    background-color: #027794;
+}
+
+ul{
+    margin-left: 2em;
+}
+
+dd{
+    text-indent: 2em;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #353535;
+    border-top: 4px solid black;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+kbd{
+    color: yellow;
+    font-style: italic;
+}
+
+footer a {
+    color:red;
+}
+
+small{
+    color: lightgray;
+}
